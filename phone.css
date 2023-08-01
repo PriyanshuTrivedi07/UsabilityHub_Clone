@@ -1,0 +1,107 @@
+/* Media queries appears here */
+/* 
+@media screen and (max-width: 991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .example-card{
+        
+    }
+
+
+
+} */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .get-started-btn{
+        width: 100%;
+    }
+    .header-right{
+        max-width: 100vw;
+    }
+    .header-right img{
+
+    }
+
+    .features-card{
+        max-width: 50%;
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+    }
+    .big-feature-section-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-img{
+        display: flex;
+        justify-content: center;
+    }
+    .feature-img img {
+        width: 80%;
+        /* margin-inline: auto; */
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .companies-logos {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 35px;
+        /* margin-inline: 10px; */
+    }
+    .examples-area {
+        gap: 18px;
+    }
+
+    .example-card {
+        width: 48%;
+        height: 180px;
+    }
+    .card-text{
+        font-size: 20px;
+    }
+    .cta-section-container{
+        padding-block: 20px;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
